@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfApplication
+namespace LoanType.UI.View
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for LoanTypeDetailView.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class LoanTypesDetailView : UserControl
     {
-        public MainWindow()
+        public LoanTypesDetailView()
         {
             InitializeComponent();
         }
